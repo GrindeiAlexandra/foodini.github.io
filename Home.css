@@ -89,7 +89,7 @@
 .u-section-2 .u-image-1 {
   min-height: 431px;
   pointer-events: auto;
-  background-image: url("images/traditional-food-around-the-world-Travlinmad1.jpg");
+  background-image: url("images/concept-idea-png-5.png");
   background-position: 50% 50%;
 }
 
@@ -174,7 +174,6 @@
   grid-template-columns: calc(33.3333% - 36px) calc(33.3333% - 36px) calc(33.3333% - 36px);
   grid-gap: 54px 54px;
   min-height: 370px;
-  grid-auto-columns: calc(33.3333% - 36px);
 }
 
 .u-section-3 .u-list-item-1 {
@@ -319,22 +318,16 @@
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
-    grid-auto-columns: calc(33.333333333333336% - 36px);
   }
 }
 
 @media (max-width: 991px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-    grid-auto-columns: calc(50% - 27px);
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
-  }
-
   .u-section-3 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -364,6 +357,5 @@
 @media (max-width: 575px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 }
